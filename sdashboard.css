@@ -1,0 +1,133 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100%;
+    background-color: rgb(0, 0, 50);
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.nav-item {
+    list-style-type: none;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: rgb(0, 0, 128);
+    border-color: blue;
+}
+
+.logo-smdi {
+    max-width: 150px;
+    padding-left: 10px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 80px 0 20px 220px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: auto;
+    width: 100%;
+}
+
+/* Custom CSS for sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #f8f9fa;
+    padding-top: 60px;
+    border-right: 1px solid #dee2e6;
+    z-index: 999;
+}
+
+.sidebar-item {
+    padding: 10px 20px;
+}
+
+.sidebar-item a {
+    display: block;
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.sidebar-item a:hover {
+    color: rgba(0,0,0,.7);
+}
+
+/* Sidebar Header */
+.sidebar-header {
+    padding: 30px 30px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.sidebar-header h4 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Charts Section */
+.card-body canvas {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+/* Adjust main content to not be covered by navbar and sidebar */
+main.container-fluid {
+    margin-top: 80px; /* height of the navbar */
+    margin-left: 220px; /* width of the sidebar */
+    padding: 20px;
+}

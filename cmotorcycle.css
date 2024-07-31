@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100%;
+    background-color: rgb(0, 0, 50);
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px; 
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0); 
+    background-color: rgba(255, 255, 255, 0); 
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px; 
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+    border-radius: 5px; 
+}
+
+.nav-item {
+    list-style-type: none;
+    text-align: center;
+}
+
+form {
+    margin-left: auto;
+}
+
+.logo-smdi {
+    max-width: 150px;
+    padding-left: 10px;
+}
+
+.icon {
+    max-width: 40px; /* Adjust the size as needed */
+    vertical-align: middle;
+    margin-right: 1px; /* Space between icon and text */
+}
+
+.faculty-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.621);
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.document-title {
+    color: #000000;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid #dddddd;
+    text-align: center; /* Centering the text inside table cells */
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+tbody tr {
+    background-color: #f9f9f9;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    position: auto;
+    bottom: 0;
+    width: 100%;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+/* New styles for the follow up button */
+.follow-up-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* General styles for the profile container */
+.profile-container {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* Style for profile labels */
+.profile-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+/* Style for form controls */
+.form-control {
+    margin-bottom: 20px;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+/* Style for the bio textarea */
+textarea.form-control {
+    resize: vertical;
+}
+
+/* Style for the CRUD buttons */
+.btn-group .btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.btn-group .btn:last-child {
+    margin-right: 0;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-secondary {
+    background-color: #000000;
+    border-color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-success {
+    background-color: #000000;
+    border-color: #ffffff;
+}
+
+.btn-success:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-danger {
+    background-color: #000000;
+    border-color: #ffffff;
+}
+
+.btn-danger:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Logout button styles */
+.btn-logout {
+    background-color: rgb(0, 0, 128);
+    border-color: blue; /* Red border */
+    color: #ffffff; /* White text */
+    padding: 10px 20px; /* Padding for size */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.btn-logout:hover {
+    background-color: #0056b3;
+    border-color: #004085; /* Darker red border on hover */
+}
+
+/* Margin adjustments for better spacing */
+.mt-4 {
+    margin-top: 0rem !important;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+.card {
+    padding: 5px 10px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    width: 21%; /* Adjust width as needed */
+    max-width: 400px auto; /* Maximum width to maintain responsiveness */
+}
+.card-body {
+    padding: 0px 1px;
+}
+.icon-img {
+    max-width: 55px; /* Adjust the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align vertically with text */
+    margin-right: 0px; /* Optional: Add margin for spacing */
+}

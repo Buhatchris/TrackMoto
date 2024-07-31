@@ -1,0 +1,178 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 50);
+    font-family: Arial, sans-serif; /* Added font family */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    z-index: 1000; /* Ensure navbar stays on top */
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.nav-item {
+    list-style-type: none;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: rgb(0, 0, 128);
+    border-color: blue;
+}
+
+.logo-smdi {
+    max-width: 150px;
+    padding-left: 10px;
+}
+
+.dashboard-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
+    padding: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 80px 0 20px 270px; /* Adjust top margin to accommodate fixed navbar and sidebar */
+}
+
+.card {
+    width: 1300px;
+    height: 550px;
+    max-height:600px;
+    margin-bottom: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Custom CSS for sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    max-width: 200px;
+    background-color: #f8f9fa; /* Adjust as needed */
+    padding-top: 60px; /* Adjust based on your header height */
+    border-right: 1px solid #dee2e6; /* Example border */
+    z-index: 999; /* Ensure sidebar stays behind navbar */
+}
+
+.sidebar-item {
+    padding: 10px 20px;
+}
+
+.sidebar-item a {
+    display: block;
+    color: rgba(0,0,0,.5); /* Adjust text color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.sidebar-item a:hover {
+    color: rgba(0,0,0,.7); /* Adjust hover color */
+}
+
+/* Custom CSS for customer table */
+.customer-table-container {
+    margin-top: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+}
+
+.table {
+    width: 100%;
+    max-width: 100%; /* Ensure table occupies full width */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 12px; /* Increase padding for better spacing */
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    color: #495057;
+    font-weight: bold;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 123, 255, 0.1); /* Example stripe color */
+}
+/* Style for card header */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Add margin to space the search bar from the table */
+}
+
+.search-bar {
+    width: 200px; /* Adjust the width as needed */
+}
+
+.card-title {
+    margin: 0; /* Remove margin for better alignment */
+}
+/* Sidebar Header */
+.sidebar-header {
+    padding: 30px 30px;
+    background-color: #007bff; /* Adjust as needed */
+    color: white; /* Adjust as needed */
+    text-align: center; /* Center the text */
+    border-bottom: 1px solid #dee2e6; /* Add a border at the bottom */
+}
+
+.sidebar-header h4 {
+    margin: 0;
+    font-size: 1.2rem; /* Adjust the font size */
+}

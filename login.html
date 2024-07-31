@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="img/tlogo.png" class="centered-img">
+        <form action="login.html" method="post">
+            <div class="input-container">
+                <i class="fa fa-user icon"></i>
+                <input type="text" id="username" name="username" placeholder="Username" required>
+            </div>
+            
+            <div class="input-container">
+                <i class="fa fa-lock icon"></i>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            
+            <p>No account? <a href="#" onclick="showPopupForm()">Register now!</a></p>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div class="popup-form">
+            <h2>Register Now</h2>
+            <form action="registerUser.php" method="post">
+                <div class="input-container">
+                    <label for="registerUsername">Username:</label>
+                    <input type="text" id="registerUsername" name="registerUsername" required>
+                </div>
+    
+                <div class="input-container">
+                    <label for="registerFullName">Full Name:</label>
+                    <input type="text" id="registerFullName" name="registerFullName" required>
+                </div>
+    
+                <div class="input-container">
+                    <label for="registerPosition">Position:</label>
+                    <select id="registerPosition" name="registerPosition" required>
+                        <option value="Admin">Admin</option>
+                        <option value="Employee">Employee</option>
+                        <option value="Customer">Customer</option>
+                    </select>
+                </div>
+               
+                <div class="input-container">
+                    <label for="registerPassword">Password:</label>
+                    <input type="password" id="registerPassword" name="registerPassword" required>
+                </div>
+    
+                <button type="submit">Register</button>
+            </form>
+            <button onclick="hidePopupForm()">Close</button>
+        </div>
+    </div>
+
+    <script>
+        function showPopupForm() {
+            document.getElementById("overlay").style.display = "flex";
+        }
+
+        function hidePopupForm() {
+            document.getElementById("overlay").style.display = "none";
+        }
+    </script>
+    
+</body>
+</html>

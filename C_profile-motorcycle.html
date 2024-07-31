@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-MOTORCYCLE DETAILS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="cmotorcycle.css"> <!-- Link to external CSS file for profile -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/smdilogo.png" alt="Your Logo" class="logo-smdi">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faculties.html">Employee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="updates.html">Customer</a>
+                    </li>
+                </ul>
+                <form action="logout.php" method="post">
+                    <button id="logoutButton" class="btn btn-logout">Logout</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container faculty-section">
+        <div class="profile-container mt-4">
+            <h2 class="mt-4">
+                <img src="img/profile_icon.png" alt="Profile Icon" class="icon-img">Motorcycle
+            </h2>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-secondary">Account</button>
+                            <button type="button" class="btn btn-success">Motorcycle</button>
+                        </div>
+                    </div>
+                </div>                
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <p class="profile-label">BRAND:</p>
+                    <input type="text" class="form-control" value="SUZUKI">
+                </div>
+                <div class="col-md-6">
+                    <p class="profile-label">MODEL:</p>
+                    <input type="text" class="form-control" value="RAIDER150">
+                </div>
+                <div class="col-md-6">
+                    <p class="profile-label">ENGINE NO.:</p>
+                    <input type="text" class="form-control" value="21651232">
+                </div>
+                <div class="col-md-6">
+                    <p class="profile-label">FRAME NO.:</p>
+                    <input type="text" class="form-control" value="312312545">
+                </div>
+                <div class="col-md-6">
+                    <p class="profile-label">DATE RELEASED:</p>
+                    <input type="email" class="form-control" value="JULY 20,2023">
+                </div>
+                <div class="col-md-6">
+                    <p class="profile-label">COLOR:</p>
+                    <input type="tel" class="form-control" value="+1 234 567 890">
+                </div>
+    </main>
+    
+    <footer class="footer mt-4">
+        <p>Copyright © 2023 Colegio de la Purisima Concepcion | Powered by TamCodings</p>
+    </footer>
+
+    <div class="overlay"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

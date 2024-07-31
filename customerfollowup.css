@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100%;
+    background-color: rgb(0, 0, 50);
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px; 
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0); 
+    background-color: rgba(255, 255, 255, 0); 
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px; 
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+    border-radius: 5px; 
+}
+
+.nav-item {
+    list-style-type: none;
+    text-align: center;
+}
+
+form {
+    margin-left: auto;
+}
+
+.btn-primary {
+    background-color: rgb(0, 0, 128);
+    border-color: blue;
+}
+
+.logo-smdi {
+    max-width: 150px;
+    padding-left: 10px;
+}
+
+.icon {
+    max-width: 40px; /* Adjust the size as needed */
+    vertical-align: middle;
+    margin-right: 1px; /* Space between icon and text */
+}
+
+.faculty-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.621);
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.document-title {
+    color: #000000;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid #dddddd;
+    text-align: center; /* Centering the text inside table cells */
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+tbody tr {
+    background-color: #f9f9f9;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+/* New styles for the follow up button */
+.follow-up-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* Card styling */
+.card {
+    width: 20%; /* Adjust the width to minimize the card size */
+    margin: 5px left; /* Center the card with some margin */
+    padding: 1px; /* Reduce padding for a smaller card */
+    background-color: #ffffff; /* Set background color */
+    border-radius: 10px; /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}

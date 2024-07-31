@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 50);
+}
+
+.navbar {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    
+    border-radius: 10px; 
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0); 
+    background-color: rgba(255, 255, 255, 0); 
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px; 
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+    border-radius: 5px; 
+}
+
+.nav-item {
+    list-style-type: none;
+    text-align: center;
+}
+
+form {
+    margin-left: auto;
+}
+
+.btn-primary {
+    background-color: rgb(0, 0, 128);
+    border-color: blue;
+}
+
+.logo-smdi {
+    max-width: 150px;
+    padding-left: 10px;
+}
+
+.logo-track {
+    width: 1100px; 
+    vertical-align: middle;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: rgb(0, 0, 128);
+    border-color: blue;
+}
+
+.logo {
+    max-width: 150px;
+    padding-left: 10px;
+}
+
+.logo-small {
+    width: 150px;
+    vertical-align: middle;
+    margin-bottom: 15px;
+}
+
+.icon {
+    max-width: 40px; /* Adjust the size as needed */
+    vertical-align: middle;
+    margin-right: 1px; /* Space between icon and text */
+}
+
+.faculty-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.621);
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.document-title {
+    color: #000000;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid #dddddd;
+    text-align: center; /* Centering the text inside table cells */
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+tbody tr {
+    background-color: #f9f9f9;
+}
+
+tbody tr:not(:last-child) {
+    margin-bottom: 10px; /* Adding gap between rows */
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #33333300;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
